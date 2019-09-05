@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  gin1:
+    image: gin1
+    build: .
+    ports:
+      - 8080:8080
